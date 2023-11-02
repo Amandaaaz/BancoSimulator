@@ -1,0 +1,82 @@
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  font-family: system-ui;
+}
+
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.atm {
+  background-color: #2d2d2d;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid #F2E8DF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff; 
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #729CA6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #729ca68c;
+}
+
+#saldoContainer {
+  display: none;
+  background-color: #444;
+  border: 2px solid #F2E8DF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#saldo {
+  font-size: 20px;
+  color: #95B8BF; 
+  font-weight: bold;
+}
+
+#conta, #agencia, #tipoConta {
+  font-size: 18px;
+  color: #ccc;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="center-container">
+        <div class="atm">
+            <h1>Conta Bancária</h1>
+
+            <p>Conta: <span id="conta">12345</span></p>
+            <p>Agência: <span id="agencia">7890</span></p>
+            <p>Tipo de Conta: <span id="tipoConta">Corrente</span></p>
+
+            <button onclick="mostrarSaldo()">Buscar Saldo</button>
+            <button onclick="realizarDeposito()">Depositar</button>
+            <button onclick="realizarSaque()">Sacar</button>
+
+            <div id="saldoContainer" style="display: none;">
+                <p>Saldo Atual: R$ <span id="saldo">1000</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
