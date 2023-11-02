@@ -38,6 +38,11 @@ h1 {
   text-align: center;
 }
 
+p.conta-info {
+  display: flex;
+  align-items: center;
+}
+
 p {
   font-size: 16px;
   color: #ccc;
@@ -46,7 +51,7 @@ p {
 
 button {
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 10px 8px;
   background-color: #729CA6;
   color: #fff;
   border: none;
@@ -74,6 +79,12 @@ button:hover {
   font-size: 20px;
   color: #95B8BF; 
   font-weight: bold;
+}
+
+#conta {
+  font-size: 16px;
+  color: #ccc;
+  margin-left: 5px;
 }
 
 #conta, #agencia, #tipoConta {

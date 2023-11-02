@@ -55,3 +55,13 @@
         }
     }
     
+    function mostrarNumeroConta() {
+        const numeroContaElement = document.getElementById("conta");
+        
+        if (numeroContaElement.style.display === "none") {
+            numeroContaElement.style.display = "block";
+        } else {
+            numeroContaElement.style.display = "none";
+        }
+    }
+    
